@@ -286,21 +286,25 @@ export default function Page() {
                     <div className="grid md:grid-cols-4 gap-8" data-oid="7xswks7">
                         {[
                             {
-                                title: 'Appetizers',
-                                desc: 'Artfully crafted starters',
-                                image: '012.jpg',
+                                title: 'Private Dinner',
+                                desc: 'Tailored dining experiences, brought to your home or villa so you can simply enjoy the moment.',
+                                image: '021.jpg',
                             },
                             {
-                                title: 'Main Courses',
-                                desc: 'Signature dishes & classics',
-                                image: '013.jpg',
+                                title: 'Menu Consulting',
+                                desc: 'We design menus that tell your story and delight your guests.',
+                                image: '023.jpg',
                             },
                             {
-                                title: 'Desserts',
-                                desc: 'Sweet endings to remember',
-                                image: '014.jpg',
+                                title: 'Private Classes',
+                                desc: 'Personal cooking sessions, hands-on and customized to you.',
+                                image: '022.jpg',
                             },
-                            { title: 'Wine Selection', desc: 'Curated pairings', image: '015.jpg' },
+                            {
+                                title: 'Shop',
+                                desc: 'E-books, favorite tools, and ingredients to elevate your home kitchen.',
+                                image: '020.jpg',
+                            },
                         ].map((category, index) => (
                             <div
                                 key={index}
